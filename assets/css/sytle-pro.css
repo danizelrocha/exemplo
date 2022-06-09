@@ -9,14 +9,14 @@
 
 .logo {
     width: 35px;
-    height: 28px;
+    height: 30px;
     position: relative;
     display: flex;
     justify-content: right;
 }
 
 a {
-    color: #FCFCFE;
+    color: rgb(213, 228, 133);
     text-decoration: none;
     transition: 0.3s;
 }
@@ -26,11 +26,11 @@ a:hover {
 }
 
 nav {
-    display: flex;
     justify-content: space-around;
+    display: flex;
     align-items: center;
     font-family: system-ui, apple-system, Helvetica, Arial, sans-serif;
-    background: #4E0000;
+    background: #111811;
     height: 8vh;
     position: fixed;
     width: 100%;
@@ -53,10 +53,11 @@ nav {
 /**** SECTION IMAGES****/
 
 .main {
-    background-color: #1A1C22;
+    background-color: #232425;
     margin-bottom: auto;
     display: flex;
     transition: 'background-color' 300ms;
+    box-shadow: #111811 10px 10px 20px 20px;
 }
 
 .leftside {
@@ -67,12 +68,13 @@ nav {
     flex-direction: column;
     display: flex;
     width: 300px;
+    height: 80px;
 }
 
 .images {
     margin-left: 80px;
-    width: 10px;
     padding: 10px;
+    height: 200px;
 }
 
 .images img {
@@ -83,10 +85,15 @@ nav {
     padding-top: 50px;
 }
 
+.images:last-child {
+    width: 80%;
+}
+
 
 /**** SECTION TEXT****/
 
 .text-rigthside {
+    COLOR: #2C2E1C;
     flex-direction: column;
     display: flex;
     flex: 2;
@@ -97,35 +104,29 @@ nav {
 }
 
 .inst-text h1 {
-    padding: 20px;
-    font-family: Andale Mono, monospace;
-    font-size: 28px;
-    text-align: center;
-    letter-spacing: 2px;
-    height: auto;
     color: #F5D41B !important;
     transform: perspective(300px) rotateX(25deg);
     text-align: justify;
+    padding: 20px;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 .inst-text h2 {
-    font-family: Andale Mono, monospace;
-    font-size: 28px;
-    text-align: center;
-    letter-spacing: 2px;
-    height: auto;
     color: #F5D41B !important;
     transform: perspective(300px) rotateX(25deg);
     text-align: justify;
+    padding: 20px;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 .inst-text p {
-    color: #FCFCFE !important;
+    color: #F5D41B !important;
     transform: perspective(300px) rotateX(25deg);
     text-align: justify;
-    font-size: 16px;
-    line-height: 23px;
-    margin-top: 10px;
 }
 
 footer {

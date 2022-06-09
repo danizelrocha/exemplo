@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1A1C22;
+    margin-bottom: auto;
+    display: flex;
+    transition: 'background-color' 300ms;
+}
+
+h1 {
+    padding: 10px;
+    font-family: Andale Mono, monospace;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+    height: auto;
+    color: #F5D41B !important;
+    transform: perspective(300px) rotateX(25deg);
+    text-align: justify;
+}
+
+a {
+    color: #FCFCFE;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.voltar {
+    padding: 300px;
+    height: auto;
+}

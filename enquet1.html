@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon/favicon.png" type=" image/x-icon ">
+    <title>Enquete</title>
+    <link rel="stylesheet" href="assets/css/style-enquet.css">
+</head>
+
+<main>
+    <form>
+        <label for="nomesobrenome">Nome e sobrenome</label>
+        <input class="input-padrao" type="text" id="nomesobrenome" required>
+
+        <label for="email">Email</label>
+        <input class="input-padrao" type="email" id="email" required placeholder="seuemail@dominio.com">
+
+        <label for="telefone">Telefone</label>
+        <input class="input-padrao" type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
+
+        <legend>Como você prefere seu Porg?</legend>
+        <ul>
+            <label for="radio-PET"><input type="radio" name="contato"value="PET"id= "pet">PET</label>
+            <label for="radio-PET"><input type="radio" name="contato"value="petisco"id="petisco"> PETISCO</label>
+        </ul><br>
+        <label for="mensagem">Escreva seu motivo.</label>
+        <textarea class="input-padrao" cols="70" rows="10" id="mensagem" required></textarea>
+        <div>
+            <a class="enviar" href="obrig.html">Enviar Resposta</a>
+        </div>
+    </form>
+</main>
+
+
+</html>
