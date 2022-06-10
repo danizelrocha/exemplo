@@ -5,35 +5,54 @@
 }
 
 body {
-    background-color: #1A1C22;
+    text-align: center;
+    background-color: #232425;
     margin-bottom: auto;
-    display: flex;
     transition: 'background-color' 300ms;
 }
 
 h1 {
-    padding: 10px;
-    font-family: Andale Mono, monospace;
-    font-size: 28px;
-    text-align: center;
-    letter-spacing: 2px;
-    height: auto;
     color: #F5D41B !important;
     transform: perspective(300px) rotateX(25deg);
     text-align: justify;
+    padding: 50px;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
-a {
-    color: #FCFCFE;
+P {
+    color: #F5D41B !important;
+    transform: perspective(300px) rotateX(25deg);
+    text-align: justify;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.volta {
     text-decoration: none;
     transition: 0.3s;
+    color: #F5D41B;
+    text-align: center;
+    font-size: 30px;
+    padding: 0 20px;
 }
 
-a:hover {
+.volta:hover {
     opacity: 0.5;
 }
 
-.voltar {
-    padding: 300px;
-    height: auto;
+footer {
+    text-align: center;
+    background-color: #232425;
+    margin-bottom: auto;
+    transition: 'background-color' 300ms;
+}
+
+.copyright {
+    color: #F5D41B;
+    text-align: center;
+    height: 50px;
 }

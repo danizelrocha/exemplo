@@ -105,8 +105,6 @@ nav {
 
 .inst-text h1 {
     color: #F5D41B !important;
-    transform: perspective(300px) rotateX(25deg);
-    text-align: justify;
     padding: 20px;
     font-size: 28px;
     text-align: center;
@@ -115,7 +113,6 @@ nav {
 
 .inst-text h2 {
     color: #F5D41B !important;
-    transform: perspective(300px) rotateX(25deg);
     text-align: justify;
     padding: 20px;
     font-size: 28px;
@@ -125,11 +122,16 @@ nav {
 
 .inst-text p {
     color: #F5D41B !important;
-    transform: perspective(300px) rotateX(25deg);
     text-align: justify;
 }
 
 footer {
-    height: auto;
-    display: flex;
+    text-align: center;
+    background-color: #232425;
+    margin-bottom: auto;
+    transition: 'background-color' 300ms;
+}
+
+.copyright {
+    color: #F5D41B !important;
 }

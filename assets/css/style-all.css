@@ -130,6 +130,11 @@ nav {
 }
 
 footer {
-    height: auto;
-    display: flex;
+    text-align: center;
+    background-color: #1A1C22;
+    background-color: #ADB493;
+}
+
+.copyright {
+    color: #1A1C22;
 }

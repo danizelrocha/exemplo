@@ -42,3 +42,12 @@ form label .form legend {
     background: #490F0D;
     transform: scale(1.2);
 }
+
+footer {
+    text-align: center;
+    background-color: #1A1C22;
+}
+
+.copyright {
+    color: #F5D41B;
+}

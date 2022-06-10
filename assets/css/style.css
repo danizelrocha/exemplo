@@ -129,6 +129,10 @@ nav {
 }
 
 footer {
-    height: auto;
-    display: flex;
+    text-align: center;
+    background-color: #1A1C22;
+}
+
+.copyright {
+    color: #F5D41B !important;
 }
