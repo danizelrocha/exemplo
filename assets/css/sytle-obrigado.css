@@ -5,10 +5,10 @@
 }
 
 body {
+    position: relative;
+    background-image: url("/assets/images/fundo-star.jpg");
     text-align: center;
-    background-color: #232425;
-    margin-bottom: auto;
-    transition: 'background-color' 300ms;
+ 
 }
 
 h1 {
@@ -44,15 +44,8 @@ P {
     opacity: 0.5;
 }
 
-footer {
-    text-align: center;
-    background-color: #232425;
-    margin-bottom: auto;
-    transition: 'background-color' 300ms;
-}
-
 .copyright {
     color: #F5D41B;
     text-align: center;
-    height: 50px;
+    margin-bottom: auto;
 }

@@ -8,8 +8,8 @@
 /**** NAVBAR***/
 
 .logo {
-    width: 35px;
-    height: 30px;
+    width: 50px;
+    height: 40px;
     position: relative;
     display: flex;
     justify-content: right;
@@ -26,8 +26,8 @@ a:hover {
 }
 
 nav {
-    justify-content: space-around;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     font-family: system-ui, apple-system, Helvetica, Arial, sans-serif;
     background: #111811;
@@ -53,7 +53,7 @@ nav {
 /**** SECTION IMAGES****/
 
 .main {
-    background-color: #ADB493;
+    background-color: #858d31;
     margin-bottom: auto;
     display: flex;
     transition: 'background-color' 300ms;
@@ -132,9 +132,38 @@ nav {
 footer {
     text-align: center;
     background-color: #1A1C22;
-    background-color: #ADB493;
+    background-color: #858d31;
 }
 
 .copyright {
     color: #1A1C22;
+}
+
+
+/**********Responsividade*********/
+
+@media(max-width:1100px) {
+    .nav{
+        display: flex;
+    }
+    .nav .body .images {
+        padding: 0 20px;
+    }
+    .footer  {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width:900px) {
+    .leftside {
+        flex-direction: column-reverse;
+    }
+    .leftside  {
+        height: 100px;
+        flex: none;
+        background-size: auto 100%;
+        background-position-x: center;
+    }
+  
 }

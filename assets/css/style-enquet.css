@@ -4,10 +4,22 @@
     padding: 0;
 }
 
+.body {
+    background-image: url("/assets/images/fundo-star.jpg");
+}
+
+.main{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-left: -150px;
+    margin-top: -40px;
+}
+
 form {
     margin: 10px 0;
-    padding: 10px;
-    width: 80%;
+    padding: -10px;
+    width: 80%; 
 }
 
 form label .form legend {
@@ -16,38 +28,45 @@ form label .form legend {
     margin: 0 0 10px;
 }
 
-.input-padrao {
+label {
+    color: #F5D41B;
+    border:black;
+    background: black;
+}
+
+legend {
+    color: #F5D41B;
+    border: black;
+    background: black;
+}
+   
+.input-padrao{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 70%;
+}
+
+.center-enviar{
+    align-items: center;
+    padding-left: -200%;
 }
 
 .enviar {
     text-decoration: none;
-    width: 40%;
-    padding: 15px 0;
-    margin: 0 130px;
-    background: #7F0B0D;
-    color: white;
-    font-weight: bold;
-    font-size: 28px;
+    width: 60%; 
+    margin: 0 100px;
+    color: #F5D41B;
+    font-size: 18px;
     border: none;
     transition: 1s all;
     cursor: pointer;
-    border-radius: 22px
+    border-radius: 5px;
+    background: black;
 }
 
 .enviar:hover {
-    background: #490F0D;
+    background: #81100c;
     transform: scale(1.2);
 }
 
-footer {
-    text-align: center;
-    background-color: #1A1C22;
-}
-
-.copyright {
-    color: #F5D41B;
-}

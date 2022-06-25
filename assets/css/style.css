@@ -8,9 +8,8 @@
 /**** NAVBAR***/
 
 .logo {
-    width: 35px;
-    height: 28px;
-    position: relative;
+    width: 50px;
+    height: 40px;
     display: flex;
     justify-content: right;
 }
@@ -51,9 +50,12 @@ nav {
 
 
 /**** SECTION IMAGES****/
+.body {
+    background-image: url("/assets/images/fundo-star.jpg");
+}
 
 .main {
-    background-color: #1A1C22;
+    
     margin-bottom: auto;
     display: flex;
     transition: 'background-color' 300ms;
@@ -106,6 +108,9 @@ nav {
     color: #F5D41B !important;
     transform: perspective(300px) rotateX(25deg);
     text-align: justify;
+    position: relative;
+    overflow: initial;
+    /*voltar aqui*/
 }
 
 .inst-text h2 {
@@ -128,9 +133,13 @@ nav {
     margin-top: 10px;
 }
 
+strong {
+    color: #F5D41B
+}
+
 footer {
     text-align: center;
-    background-color: #1A1C22;
+    
 }
 
 .copyright {
